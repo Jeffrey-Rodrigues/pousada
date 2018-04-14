@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pousada Ilhabela - Formulario De Contato</title>
+  </head>
+  <body>
+    <h1>Entre em contato conosco</h1>
+
+    <form action="post" method="post" name="dados">
+      <fieldset>
+        <legend>Formulario de Contato</legend>
+
+      <div>
+        <label for="nome">Nome:</label>
+        <br>
+          <input type="text" id="nome" placeholder="Digite seu nome..." required autofocus>
+      </div>
+      <br>
+      <div>
+        <label for="email">Email: </label>
+        <br>
+          <input type="email" id="email" name="email" required autofocus>
+      </div>
+      <br>
+      <div>
+        <label for="celular">Celular: </label>
+        <br>
+        <input type="tel" id="celular" placeholder="">
+      </div>
+      <br>
+      <div>
+        <label for="assunto">Assunto: </label>
+        <br>
+        <input type="text" id="assunto" name="assunto" value="" placeholder="Ex: Reserva">
+      </div>
+      <br>
+      <div>
+        <label for="mensagem">Mensagem:</label>
+        <br>
+        <textarea name="mensagem" rows="8" cols="50" placeholder="Digite sua mensagem..." required autofocus></textarea>
+      </div>
+      <div>
+        <input type="checkbox" id="promocao" name="promocao" value="">
+        <label for="promocao">Desejo receber informações de promoções da pousada</label>
+      </div>
+      <div>
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="reset" name="limpar" value="Limpar">
+      </div>
+    </fieldset>
+    </form>
+  </body>
+</html>
